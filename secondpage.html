@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+<style>
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: rgb(9, 160, 206); /*background-color: rgb(51, 172, 194*/
+    padding: 80px 20px 0px;
+}
+.header {
+    background-color: rgb(255, 255, 255);
+    min-height: 150px;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+.footer {
+    background-color: rgb(9, 160, 206);/*9, 160, 206*/
+    min-height: 150px;
+}
+#dov{
+            display: flex ;
+            justify-content: center ;
+        }
+</style>
+    
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <h1><i>Menu</i></h1>
+               
+                <br>
+                <li><a href="pg.clinica.html">Sobre a Clínica</a></li>
+                <br>
+                <br>
+                <li><a href="pg.atendimento.html">Horário de Atendimento</a></li>
+                <br>
+                <br>
+                <li><a href="pg.contato.html">Contato</a></li>
+                <br>
+                <br>
+            </ul>
+        </div>
+
+        <div class="main">
+        <thead>
+            <div class="header">
+                 <!-- Aqui vai o seu header -->
+                <span>
+                <img src="banner-clinica-fotos900.png" alt="Baner clínica Tibiriça A melhor de Ribeirão" width="1000" height="310">
+                <p></p>
+            </div>
+        </thead>
+        <tbody>
+            <div class="content">
+                <fieldset>
+                    <p>A <strong>Tibiriçá</strong> é uma clínica médica popular que oferece diferentes especialidades para consultas e exames. Nossa clínica preza pelo atendimento diferenciado e equipe qualificada, /
+                    o que propicia a atenção e os devidos cuidados para toda a família. 
+                    Com o objetivo de fornecer consultas e exames ao seu alcance, a Clínica Tibiriçá possui médicos competentes no que tange à prevenção e diagnóstico, a fim de proporcionar bem-estar e qualidade de vida.
+                    <b>Dentista responsável:</b> <b>Dra.</b> Christiane Nogara <mark> 53607.</mark></p>
+                    <!-- Aqui vai o seu conteúdo -->
+                </fieldset>
+               
+            </div>
+        </tbody>
+        <tfoot>
+            <div class="footer">
+                <div id="dov">
+                    <img src="logoBranco.png" alt="Baner Rodapé com os contatos da clínica. Telefone, número, whatsap, numero, email,." >
+                </div>
+                <br>
+                <br>
+                <br>
+                    <b>Contato</b> <b>Tel:</b> 016 3600-0720 
+                    <b>Email:</b> sac@clinicatibirica.com.br
+                    <b>Endereço</b> Rua Saldanha Marinho, 281 - Centro 
+                    <b>CEP:</b> 14010-060 Ribeirão Preto/SP
+            </div>
+        </tfoot>  
+        </div>
+    </div>
+</body>
+</html>

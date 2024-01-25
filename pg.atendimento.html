@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horário de Atendimento</title>
+
+    <style>
+                
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: aquamarine;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: rgb(9, 160, 206); /*background-color: rgb(51, 172, 194*/
+            padding: 80px 20px 0px;
+        }
+        .header {
+            background-color: rgb(253, 253, 253);
+            min-height: 150px;
+        }
+        .content {
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+        
+        }
+        .footer {
+            background-color: rgb(9, 160, 206);/*9, 160, 206*/
+            min-height: 150px;
+        }
+        table{
+            -webkit-box-shadow: 12px 14px 6px 0px rgba(0,0,0,0.24);
+            -moz-box-shadow: 12px 14px 6px 0px rgba(0,0,0,0.24);
+            box-shadow: 12px 14px 6px 0px rgba(0,0,0,0.24);
+            border: solid 1px rgb(202, 202, 202);
+        }
+        table thead th {
+            background-color: rgb(167, 255, 255); 
+        }
+        table tbody td {
+            background-color: rgb(221, 255, 245);
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: rgb(185, 250, 230); ;
+        }
+        table tbody tr:hover td {
+            background-color: rgb(9, 160, 206);
+            cursor: pointer;
+        }
+        #dov{
+            display: flex ;
+            justify-content: center ;
+        }
+    </style>
+</head>
+<body>
+    
+    <a href="pg.atendimento.html" target="_self"></a>
+    <div class="wrapper">
+        <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>            
+            <h1><i>Menu</i></h1>
+            <br>
+            <li><a href="secondpage.html">Página Principal</a></li>
+            <br>
+            <br>
+            <li><a href="pg.atendimento.html">Horário de Atendimento</a></li>
+            <br>
+            <br>
+            <li><a href="pg.contato.html">Contato</a></li>
+            <br>
+            <br>
+        </ul>
+    </div>
+
+<div class="main">
+    <thead>
+        <div class="header">
+            <!-- Aqui vai o seu header -->
+            <span>
+            <img src="https://clinicabergmann.com.br/wp-content/uploads/2017/06/0017-clinica-bergmann-porto-alegre-especialista-em-varizes-medico-especialista.jpeg" alt="Medico fazendo analise" width="1000" height="180">
+            <p></p>
+        </div>
+    </thead>
+    <tbody>
+        <div class="content">
+            <blockquote>
+                <blockquote>
+                        <br>
+                            <p>Nossa Clínica tem como obejetivo ser uma rede de clínicas reconhecida pela 
+                                excelência no tratamento à saúde e atendimento humanizado. Proporcionando 
+                                ao cliente a disponibilidade de consultas e xames em diversas especialidades.
+                            </p>
+                        <br>
+            </blockquote>
+            </blockquote>
+            <blockquote>
+                <table  sumary="Tabela de Serviços oferecidos com os preços e horários de atendimento"  cellspacing="0" width="800" align="center">
+                    <thead>
+                        <tr>
+                            <th>Serviços</th>
+                            <th>Preços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sabados</th>
+                            <th>Feriados</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Cardiologia</td>
+                            <td>R$200,00</td>
+                            <td>8h-18h</td>
+                            <td>8h-14h</td>
+                            <td>8h-12h</td>
+                        <tr>    
+                            <td>Clínico Geral</td>
+                            <td>R$120,00</td>
+                            <td>8h-18h</td>
+                            <td>8h-14h</td>
+                            <td>8h-12h</td>
+                            
+                        </tr>
+                            <td>Dermatologia</td>
+                            <td>R$90,00</td>
+                            <td>8h-18h</td>
+                            <td>8h-14h</td>
+                            <td>-</td>
+                        <tr>    
+                            <td>Endocrinologista</td>
+                            <td>R$110,00</td>
+                            <td>8h-18h</td>
+                            <td>8h-14h</td>
+                            <td>-</td>
+                        </tr>
+                    </tbody>                    
+                </table>
+            </blockquote>     
+        </div>
+    </tbody>
+        <tfoot>
+            <div class="footer">
+                <div id="dov">
+                    <img src="logoBranco.png" alt="Baner Rodapé com os contatos da clínica. Telefone, número, whatsap, numero, email,." >
+                </div>
+                <br>
+                <br>
+                <br>
+                    <b>Contato</b> <b>Tel:</b> 016 3600-0720 
+                    <b>Email:</b> sac@clinicatibirica.com.br
+                    <b>Endereço</b> Rua Saldanha Marinho, 281 - Centro 
+                    <b>CEP:</b> 14010-060 Ribeirão Preto/SP
+            </div>
+        </tfoot>  
+    </div>
+</div>
+
+
+</body>
+</html>

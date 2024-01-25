@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+                
+        html, body {
+            margin: 0;
+        }
+        body {
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: aquamarine;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: rgb(9, 160, 206); /*background-color: rgb(51, 172, 194*/
+            padding: 80px 20px 0px;
+        }
+        .header {
+            background-color: rgb(253, 253, 253);
+            min-height: 150px;
+        }
+        .content {
+            background-color: white;
+            min-height: 300px;
+            padding: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .footer {
+            background-color: rgb(9, 160, 206);/*9, 160, 206*/
+            min-height: 150px;
+        }
+        
+    </style>
+    <style>
+        #dov{
+            display: flex ;
+            justify-content: center ;
+        }
+       
+    </style>
+</head>
+<body>
+    
+    <a href="pg.contato.html" target="_self"></a>
+    <div class="wrapper">
+        <div class="menu">
+        <!-- Aqui vai o seu menu -->
+        <ul>            
+            <h1><i>Menu</i></h1>
+            <br>
+            <li><a href="secondpage.html">Página Principal</a></li>
+            <br>
+            <br>
+            <li><a href="pg.atendimento.html">Horário de Atendimento</a></li>
+            <br>
+            <br>
+            <li><a href="pg.clinica.html">Sobre a clínica</a></li>
+            <br>
+            <br>
+        </ul>
+    </div>
+
+<div class="main">
+    <thead>
+        <div class="header">
+            <!-- Aqui vai o seu header -->
+            <span>
+            <img src="contato.clínica900.png" alt="Baner clínica Tibiriça A melhor de Ribeirão" width="1000" height="180">
+            <p></p>
+        </div>
+    </thead>
+<tbody>
+    <div class="content">
+        <blockquote>
+            
+            <form method="post " target="_self" onsubmit="alert(Formulário enviado com sucesso!)" name="signup">
+                <label for="">Nome:</label> <input type="text" name="Nome" id=""><br>
+                <label for="">Email:</label><input type="email" name="E-mail"><br>
+                <label for="">Assunto:</label><input type="text" name="Assunto" id=""><br>
+                <label for="">Escreva uma Mensagem:</label><br><input  type="textarea" name="Mensagem" id=""><br>
+                <button type="submit">Enviar</button> <button type="reset">Limpar Formulário</button><br>
+            </form>
+        </blockquote>        
+        <span>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.487556125966!2d-47.810401399999996!3d-21.172782299999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bef8f9dae093%3A0xae2bc4e3d9318118!2sR.%20Saldanha%20Marinho%2C%20281%20-%20Centro%2C%20Ribeir%C3%A3o%20Preto%20-%20SP%2C%2014010-060!5e0!3m2!1spt-BR!2sbr!4v1706207064215!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </span>
+    </div>
+</tbody>
+        <tfoot>
+            <div class="footer">
+                <div id="dov">
+                    <img src="logoBranco.png" alt="Baner Rodapé com os contatos da clínica. Telefone, número, whatsap, numero, email,." >
+                </div>
+                <br>
+                <br>
+                <br>
+                    <b>Contato</b> <b>Tel:</b> 016 3600-0720 
+                    <b>Email:</b> sac@clinicatibirica.com.br
+                    <b>Endereço</b> Rua Saldanha Marinho, 281 - Centro 
+                    <b>CEP:</b> 14010-060 Ribeirão Preto/SP
+            </div>
+        </tfoot>  
+    </div>
+</div>
+</body>
+</html>
